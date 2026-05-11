@@ -15,9 +15,10 @@ My repository for gathering bugs, patches and tricks for MCSDK v6.4.2 (by now)
     When 2pp motor OL voltage at 1000rpm mechanical, LSO is giving 500 rpm.
   ### 2.2.2 Some variable isnisde LSO seem used from previous RUN 
     TODO find Which
+  ### 2.3 No good GUI for ACIM and registers not ready for ACIM
 
 ## 3. profiler problem
-  ### 3.1 GUI is worst than v5
+  ### 3.1 GUI is wore than v5
     THsi can be fixed -- TODO upload here.
   ### F3 profiler issue
     When getting to limit (HF 25kHz) we may get to situation that max current is not determiders corectly. This is due to safety task is has lowest priority and SCC do not checks MOE bit but internal variable (when preempted by MF screwed...).
