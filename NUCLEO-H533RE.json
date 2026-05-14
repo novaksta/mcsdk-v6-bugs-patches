@@ -1,0 +1,707 @@
+{
+  "type": "control",
+  "name": "NUCLEO-H533RE",
+  "descVersion": 4,
+  "contentVersion": "1.0",
+  "PN": "NUCLEO-H533RE",
+  "longDescription": "STM32 Nucleo-64 development board with STM32H533RE MCU, supports Arduino and ST morpho connectivity",
+  "shortDescription": "Nucleo 64 board with STM32H533RE MCU",
+  "link": "https://www.st.com/en/evaluation-tools/nucleo-h533re.html",
+  "mcu": "STM32H533RETx",
+  "clockSource": "internal_osc",
+  "clockFrequency": 250,
+  "algorithmCompatibility": [
+    "FOC"
+  ],
+  "connectors": [
+    {
+      "name": "Morpho CN7/CN10",
+      "type": "morpho",
+      "terminals": {
+        "ML1": [
+          {
+            "name": "PC10",
+            "help": {
+              "en": "CN7.1"
+            },
+            "cost": 0
+          }
+        ],
+        "ML2": [
+          {
+            "name": "PC11",
+            "help": {
+              "en": "CN7.2"
+            },
+            "cost": 0
+          }
+        ],
+        "ML3": [
+          {
+            "name": "PC12",
+            "help": {
+              "en": "CN7.3"
+            },
+            "cost": 0
+          }
+        ],
+        "ML4": [
+          {
+            "name": "PD2",
+            "help": {
+              "en": "CN7.4"
+            },
+            "cost": 0
+          }
+        ],
+        "ML5": [
+          {
+            "name": "3V3_VDD",
+            "help": {
+              "en": "CN7.5"
+            },
+            "cost": 0
+          }
+        ],
+        "ML6": [
+          {
+            "name": "5V_EXT",
+            "help": {
+              "en": "CN7.6"
+            },
+            "cost": 0
+          }
+        ],
+        "ML7": [
+          {
+            "name": "BOOT0",
+            "help": {
+              "en": "CN7.7 . Default state of BOOT0 is LOW. It can be set to HIGH when a jumper is ON between pins 5 and 7 of CN7."
+            },
+            "cost": 0
+          }
+        ],
+        "ML8": [
+          {
+            "name": "GND",
+            "help": {
+              "en": "CN7.8"
+            },
+            "cost": 0
+          }
+        ],
+        "ML12": [
+          {
+            "name": "NC",
+            "help": {
+              "en": "CN7.12"
+            },
+            "cost": 0
+          }
+        ],
+        "ML13": [
+          {
+            "name": "PA13(JTMS/SWDIO)",
+            "help": {
+              "en": "CN7.13"
+            },
+            "cost": 0
+          }
+        ],
+        "ML14": [
+          {
+            "name": "NRST",
+            "help": {
+              "en": "CN7.14"
+            },
+            "cost": 0
+          }
+        ],
+        "ML15": [
+          {
+            "name": "PA14(JTCK/SWCLK)",
+            "help": {
+              "en": "CN7.15"
+            },
+            "cost": 0
+          }
+        ],
+        "ML16": [
+          {
+            "name": "3V3",
+            "help": {
+              "en": "CN7.16"
+            },
+            "cost": 0
+          }
+        ],
+        "ML17": [
+          {
+            "name": "PA15(JTDI)",
+            "help": {
+              "en": "CN7.17. T_JTDI default feature signal. Remove SB9 for encoder/hall feature Enc. A/H1 signal"
+            },
+            "cost": 10
+          }
+        ],
+        "ML18": [
+          {
+            "name": "5V",
+            "help": {
+              "en": "CN7.18"
+            },
+            "cost": 0
+          }
+        ],
+        "ML19": [
+          {
+            "name": "GND",
+            "help": {
+              "en": "CN7.19"
+            },
+            "cost": 0
+          }
+        ],
+        "ML20": [
+          {
+            "name": "GND",
+            "help": {
+              "en": "CN7.20"
+            },
+            "cost": 0
+          }
+        ],
+        "ML22": [
+          {
+            "name": "GND",
+            "help": {
+              "en": "CN7.22"
+            },
+            "cost": 0
+          }
+        ],
+        "ML23": [
+          {
+            "name": "PC13",
+            "help": {
+              "en": "CN7.23"
+            },
+            "cost": 0
+          }
+        ],
+        "ML24": [
+          {
+            "name": "VIN",
+            "help": {
+              "en": "CN7.24"
+            },
+            "cost": 0
+          }
+        ],
+        "ML25": [
+          {
+            "name": "PC14-OSC32_IN(OSC32_IN)",
+            "help": {
+              "en": "CN7.25"
+            },
+            "cost": 0
+          }
+        ],
+        "ML27": [
+          {
+            "name": "PC15-OSC32_OUT(OSC32_OUT)",
+            "help": {
+              "en": "CN7.27"
+            },
+            "cost": 0
+          }
+        ],
+        "ML28": [
+          {
+            "name": "PA0",
+            "help": {
+              "en": "CN7.28"
+            },
+            "cost": 0
+          }
+        ],
+        "ML29": [
+          {
+            "name": "NC",
+            "help": {
+              "en": "CN7.29"
+            },
+            "cost": 0
+          }
+        ],
+        "ML30": [
+          {
+            "name": "PA1",
+            "help": {
+              "en": "CN7.30"
+            },
+            "cost": 0
+          }
+        ],
+        "ML31": [
+          {
+            "name": "NC",
+            "help": {
+              "en": "CN7.31"
+            },
+            "cost": 0
+          }
+        ],
+        "ML32": [
+          {
+            "name": "PB1",
+            "help": {
+              "en": "CN7.32"
+            },
+            "cost": 0
+          }
+        ],
+        "ML33": [
+          {
+            "name": "VBAT",
+            "help": {
+              "en": "CN7.33"
+            },
+            "cost": 0
+          }
+        ],
+        "ML34": [
+          {
+            "name": "PB0",
+            "help": {
+              "en": "CN7.34"
+            },
+            "cost": 0
+          }
+        ],
+        "ML35": [
+          {
+            "name": "PC2",
+            "help": {
+              "en": "CN7.35"
+            },
+            "cost": 0
+          }
+        ],
+        "ML36": [
+          {
+            "name": "PC1",
+            "help": {
+              "en": "CN7.36"
+            },
+            "cost": 0
+          },
+          {
+            "name": "PB7",
+            "help": {
+              "en": "Solder SB34"
+            },
+            "cost": 10
+          }
+        ],
+        "ML37": [
+          {
+            "name": "PC3",
+            "help": {
+              "en": "CN7.37"
+            },
+            "cost": 0
+          }
+        ],
+        "ML38": [
+          {
+            "name": "PC0",
+            "help": {
+              "en": "CN7.38"
+            },
+            "cost": 0
+          },
+          {
+            "name": "PB6",
+            "help": {
+              "en": "Solder SB37"
+            },
+            "cost": 10
+          }
+        ],
+        "MR2": [
+          {
+            "name": "PA9",
+            "help": {
+              "en": "CN10.2"
+            },
+            "cost": 0
+          }
+        ],
+        "MR3": [
+          {
+            "name": "PB6",
+            "help": {
+              "en": "CN10.3"
+            },
+            "cost": 0
+          }
+        ],
+        "MR4": [
+          {
+            "name": "PA10",
+            "help": {
+              "en": "CN10.5"
+            },
+            "cost": 0
+          }
+        ],
+        "MR5": [
+          {
+            "name": "PB7",
+            "help": {
+              "en": "CN10.5"
+            },
+            "cost": 0
+          }
+        ],
+        "MR6": [
+          {
+            "name": "PC5",
+            "help": {
+              "en": "CN10.6"
+            },
+            "cost": 0
+          }
+        ],
+        "MR7": [
+          {
+            "name": "NC",
+            "help": {
+              "en": "CN10.7"
+            },
+            "cost": 10
+          }
+        ],
+        "MR8": [
+          {
+            "name": "NC",
+            "help": {
+              "en": "CN10.8"
+            },
+            "cost": 0
+          }
+        ],
+        "MR9": [
+          {
+            "name": "GND",
+            "help": {
+              "en": "CN10.9"
+            },
+            "cost": 0
+          }
+        ],
+        "MR11": [
+          {
+            "name": "PA5",
+            "help": {
+              "en": "CN10.11"
+            },
+            "cost": 0
+          }
+        ],
+        "MR12": [
+          {
+            "name": "PA12",
+            "help": {
+              "en": "CN10.12. Close SB12 solder bridge."
+            },
+            "cost": 10
+          }
+        ],
+        "MR13": [
+          {
+            "name": "PA6",
+            "help": {
+              "en": "CN10.13"
+            },
+            "cost": 0
+          }
+        ],
+        "MR14": [
+          {
+            "name": "PA11",
+            "help": {
+              "en": "CN10.14. Close SB44 solder bridge."
+            },
+            "cost": 10
+          }
+        ],
+        "MR15": [
+          {
+            "name": "PA7",
+            "help": {
+              "en": "CN10.15"
+            },
+            "cost": 0
+          }
+        ],
+        "MR16": [
+          {
+            "name": "PB12",
+            "help": {
+              "en": "CN10.16"
+            },
+            "cost": 0
+          }
+        ],
+        "MR17": [
+          {
+            "name": "PC9",
+            "help": {
+              "en": "CN10.17"
+            },
+            "cost": 0
+          }
+        ],
+        "MR19": [
+          {
+            "name": "PC6",
+            "help": {
+              "en": "CN10.19"
+            },
+            "cost": 0
+          }
+        ],
+        "MR20": [
+          {
+            "name": "GND",
+            "help": {
+              "en": "CN10.20"
+            },
+            "cost": 0
+          }
+        ],
+        "MR21": [
+          {
+            "name": "PA9",
+            "help": {
+              "en": "CN10.21 connect externally (with jumper wire) to CN10.2"
+            },
+            "cost": 10
+          }
+        ],
+        "MR22": [
+          {
+            "name": "PB2",
+            "help": {
+              "en": "CN10.22"
+            },
+            "cost": 0
+          }
+        ],
+        "MR23": [
+          {
+            "name": "PA8",
+            "help": {
+              "en": "CN10.23"
+            },
+            "cost": 0
+          }
+        ],
+        "MR24": [
+          {
+            "name": "PB1",
+            "help": {
+              "en": "CN10.24 connect externally (with jumper wire) to CN7.32"
+            },
+            "cost": 10
+          }
+        ],
+        "MR25": [
+          {
+            "name": "PB10",
+            "help": {
+              "en": "CN10.25"
+            },
+            "cost": 0
+          }
+        ],
+        "MR26": [
+          {
+            "name": "PB15",
+            "help": {
+              "en": "CN10.26"
+            },
+            "cost": 0
+          }
+        ],
+        "MR27": [
+          {
+            "name": "PB4(NJTRST)",
+            "help": {
+              "en": "CN10.27"
+            },
+            "cost": 0
+          }
+        ],
+        "MR28": [
+          {
+            "name": "PB14",
+            "help": {
+              "en": "CN10.28"
+            },
+            "cost": 0
+          }
+        ],
+        "MR29": [
+          {
+            "name": "PB5",
+            "help": {
+              "en": "CN10.29"
+            },
+            "cost": 0
+          }
+        ],
+        "MR30": [
+          {
+            "name": "PB13",
+            "help": {
+              "en": "CN10.30"
+            },
+            "cost": 0
+          }
+        ],
+        "MR31": [
+          {
+            "name": "PB3(JTDO/TRACESWO)",
+            "help": {
+              "en": "CN10.31. T_SWO default feature signal. Remove SB15 for encoder/hall feature Enc. A/H1 signal"
+            },
+            "cost": 10
+          }
+        ],
+        "MR32": [
+          {
+            "name": "AGND",
+            "help": {
+              "en": "CN10.32"
+            },
+            "cost": 0
+          }
+        ],
+        "MR33": [
+          {
+            "name": "PA10",
+            "help": {
+              "en": "CN10.33 connect externally (with jumper wire) to CN10.4"
+            },
+            "cost": 10
+          }
+        ],
+        "MR34": [
+          {
+            "name": "PC4",
+            "help": {
+              "en": "CN10.34"
+            },
+            "cost": 0
+          }
+        ],
+        "MR35": [
+          {
+            "name": "PB14",
+            "help": {
+              "en": "CN10.35"
+            },
+            "cost": 0
+          }
+        ],
+        "MR36": [
+          {
+            "name": "PB8",
+            "help": {
+              "en": "CN10.36"
+            },
+            "cost": 0
+          }
+        ],
+        "MR37": [
+          {
+            "name": "PB15",
+            "help": {
+              "en": "CN10.37"
+            },
+            "cost": 0
+          }
+        ]
+      },
+      "features": []
+    }
+  ],
+  "features": [
+    {
+      "name": "StartStopButton",
+      "type": "Button",
+      "hwVariants": [
+        {
+          "type": "PushButton",
+          "help": {
+            "en": ""
+          },
+          "signals": {
+            "BUTTON_TRIGGER": [
+              {
+                "name": "PC13",
+                "help": {
+                  "en": "Close SB16 solder bridge (factory default)."
+                },
+                "cost": 0
+              },
+              {
+                "name": "PA0",
+                "help": {
+                  "en": "Close SB21."
+                },
+                "cost": 10
+              }
+            ]
+          },
+          "buttonTriggerEdge": "Falling Edge",
+          "buttonGpioConfig": "No Pull up - No Pull down"
+        }
+      ]
+    },
+    {
+      "name": "SerialPortCommunication",
+      "type": "SerialPortCommunication",
+      "hwVariants": [
+        {
+          "type": "Uart2WiresCommunication",
+          "help": {
+            "en": ""
+          },
+          "signals": {
+            "UART_RX": [
+              {
+                "name": "PA3",
+                "help": {
+                  "en": "Close SB2"
+                },
+                "cost": 0
+              }
+            ],
+            "UART_TX": [
+              {
+                "name": "PA2",
+                "help": {},
+                "cost": 0
+              }
+            ]
+          },
+          "cost": 0
+        }
+      ]
+    }
+  ]
+}
