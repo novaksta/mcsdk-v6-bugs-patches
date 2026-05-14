@@ -3,7 +3,7 @@ My repository for gathering bugs, patches and tricks for MCSDK v6.4.2 (by now)
 
 ## 1. Trick/patch H533 Nucleo:
   The difinition of the board is missing possibility to use certain pins (PB1 at MR24) to use most of the boards (IHM09 + classic-floppy-MC-connector).
-  In repo is (trick file)[NUCLEO-H533RE.json].
+  In repo is [trick file](NUCLEO-H533RE.json).
 
 ## 2. ACIM problems
   ### 2.1. generation
